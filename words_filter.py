@@ -5,12 +5,13 @@ from collections import defaultdict
 import math
 
 # SETTINGS
-SHOW_STATS: bool = False
+SHOW_STATS: bool = True
 REMOVE_ACCENTS: bool = True
-MIN_WORD_LENGTH: int = 2
+MIN_WORD_LENGTH: int = 4
+MAX_WORD_LENGTH: int = 10
 DENY_ONLY_CAPS: bool = True
 DENY_ONLY_CONSONANTS: bool = True
-DENY_ONLY_SAME_LETTER: bool = True
+DENY_ONLY_SAME_LETTER: bool = False
 DENY_CONTAINS_DIGIT: bool = True
 DENY_CONTAINS_SPECIAL_CHARACTER: bool = True
 
@@ -20,6 +21,7 @@ valid_words: set[str] = set()
 
 class DenyReason(Enum):
     TOO_SHORT = "TOO SHORT"
+    TOO_LONG = "TOO LONG "
     ONLY_CAPS = "ONLY CAPS"
     ONLY_CONSONANTS = "ONLY CONSONANTS"
     ONLY_SAME_LETTER = "ONLY SAME LETTER"
@@ -94,6 +96,10 @@ def handle_word(word: Word) -> None:
 
     if word.length() < MIN_WORD_LENGTH:
         log_invalid_word(word, DenyReason.TOO_SHORT)
+        return
+    
+    elif word.length() > MAX_WORD_LENGTH:
+        log_invalid_word(word, DenyReason.TOO_LONG)
         return
 
     elif DENY_ONLY_CAPS and word.is_only_caps():

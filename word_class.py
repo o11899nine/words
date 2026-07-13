@@ -6,7 +6,7 @@ class Word:
         self.string: str = string
 
     def strip_special_characters(self) -> None:
-        self.string = self.string.strip("!\",#$%&?@_£'*-+./()")
+        self.string = self.string.strip("!\",#$%&?@_£'ʻ*-+./()")
 
     def remove_accents(self) -> None:
         self.string = unidecode(self.string)
