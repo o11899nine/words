@@ -2,25 +2,21 @@ import sys
 from word_class import Word
 from enum import Enum
 from collections import defaultdict
-import os
 import math
 
-invalid_strings_by_reason: defaultdict = defaultdict(list)
-valid_strings: set[str] = set()
-
-num_lines_handled: int = 0
-num_lines: int = 0
-num_invalid_strings: int = 0
-
-# Settings
+# SETTINGS
+SHOW_STATS: bool = False
 REMOVE_ACCENTS: bool = True
-
 MIN_WORD_LENGTH: int = 2
 DENY_ONLY_CAPS: bool = True
 DENY_ONLY_CONSONANTS: bool = True
 DENY_ONLY_SAME_LETTER: bool = True
 DENY_CONTAINS_DIGIT: bool = True
 DENY_CONTAINS_SPECIAL_CHARACTER: bool = True
+
+invalid_words_by_reason: defaultdict = defaultdict(list)
+valid_words: set[str] = set()
+
 
 class DenyReason(Enum):
     TOO_SHORT = "TOO SHORT"
@@ -33,65 +29,68 @@ class DenyReason(Enum):
 
 def main() -> None: 
 
+    # Handle wrong usage
     if not 3 <= len(sys.argv) <= 4:
-        print(
-            "Usage: python words_filter.py [source_filepath] [target_filepath] [word_limit]"
-        )
+        print("Usage: python words_filter.py [source_filepath] [target_filepath] [line_limit]")
         sys.exit()
 
-    source_filepath: str = sys.argv[1]
-    target_filepath: str = sys.argv[2]
-    word_limit = math.inf
-
+    # Apply word limit / handle wrong usage
+    line_limit = math.inf
     if len(sys.argv) == 4:
         try:
-            word_limit = int(sys.argv[3])
+            line_limit = int(sys.argv[3])
         except:
-            print(
-                "Usage: python words_filter.py [source_filepath] [target_filepath] [word_limit]"
-            )
+            print("Usage: python words_filter.py [source_filepath] [target_filepath] [line_limit]")
             sys.exit()
 
+    # Get filepaths from CLI
+    source_filepath: str = sys.argv[1]
+    target_filepath: str = sys.argv[2]
+
+    # Get unique lines from source file
     unique_lines: set[str] = get_unique_lines_from_file(source_filepath)
-    num_lines = len(unique_lines)
+    num_unique_lines = len(unique_lines)
 
-
-
+    # Loop over unique lines
+    num_lines_handled: int = 0
     for line in unique_lines:
 
         # Stop at word limit
-        if num_lines_handled >= word_limit:
+        if num_lines_handled >= line_limit:
             break
 
-
-
-        # Show progress
         num_lines_handled += 1
-        progress_percentage = round((num_lines_handled / num_lines) * 100, 2)
-        print(f"{progress_percentage}%", end="\r")
-        
 
-        word = Word(line.strip())
-        for subword in word.split_multiple():
-            handle_word(Word(subword))
+        # Show progress every 25000 lines
+        if num_lines_handled % 25000 == 0 or num_lines_handled == num_unique_lines:
+            progress_percentage = round((num_lines_handled / num_unique_lines) * 100, 2)
+            print(f"{progress_percentage}%", end="\r")
 
-        
-    write_list_to_file(sorted(valid_strings), target_filepath)
-    print("------------------")
-    show_totals()
-    print("------------------")
-    show_num_invalid_strings_per_reason()
+        handle_word(Word(line.strip()))
 
+    write_list_to_file(sorted(valid_words), target_filepath)
     write_to_log()
+
+    if SHOW_STATS:
+        print("------------------")
+        show_totals(num_lines_handled)
+        print("------------------")
+        show_num_invalid_strings_per_reason()
 
 
 def handle_word(word: Word) -> None:
     word.strip_special_characters()
 
+    substrings = word.get_substrings()
+
+    if len(substrings) > 1:
+        for substring in word.get_substrings():
+            handle_word(Word(substring))
+        return
+
 
     if REMOVE_ACCENTS:
         word.remove_accents()
-
 
     if word.length() < MIN_WORD_LENGTH:
         log_invalid_word(word, DenyReason.TOO_SHORT)
@@ -112,14 +111,13 @@ def handle_word(word: Word) -> None:
     elif DENY_CONTAINS_DIGIT and word.contains_digit():
         log_invalid_word(word, DenyReason.CONTAINS_DIGIT)
         return
-    
+
     elif DENY_CONTAINS_SPECIAL_CHARACTER and word.contains_special_character():
         log_invalid_word(word, DenyReason.CONTAINS_SPECIAL_CHARACTER)
         return
-        
 
     # SUCCESS! Word is valid!
-    valid_strings.add(word.string + "\n") # Add \n for fast writelines() later
+    valid_words.add(word.string + "\n") # Add \n for fast writelines() later
 
 def write_list_to_file(list: list, filepath: str) -> None:
     print(f"Writing set to '{filepath}' ...")
@@ -143,9 +141,9 @@ def get_unique_lines_from_file(filepath: str) -> set[str]:
     return unique_lines
 
 
-def show_totals() -> None:
+def show_totals(num_lines_handled) -> None:
     print(f"Lines handled: {format_large_int(num_lines_handled)}")
-    print(f"Valid words found: {format_large_int(len(valid_strings))}")
+    print(f"Valid words found: {format_large_int(len(valid_words))}")
 
 
 def format_large_int(number: int, sep: str = ".") -> str:
@@ -153,28 +151,26 @@ def format_large_int(number: int, sep: str = ".") -> str:
 
 
 def show_num_invalid_strings_per_reason() -> None:
-    for reason in invalid_strings_by_reason:
-        num_invalid_strings: int = len(invalid_strings_by_reason[reason])
+    for reason in invalid_words_by_reason:
+        num_invalid_strings: int = len(invalid_words_by_reason[reason])
         print(f"INVALID [{reason.value}]: {format_large_int(num_invalid_strings)} words")
 
 
 def log_invalid_word(word: Word, reason: DenyReason) -> None:
-    global num_invalid_strings
-    invalid_strings_by_reason[reason].append(word.string)
-    num_invalid_strings += 1
+    invalid_words_by_reason[reason].append(word.string)
 
 
 def write_to_log() -> None:
     with open("log.txt", "w", encoding="utf-8") as log:
-        for reason in invalid_strings_by_reason:
+        for reason in invalid_words_by_reason:
             log.write(
                 "----------------------------------------------------------------------------\n"
             )
-            log.write(f"{reason.value} ({len(invalid_strings_by_reason[reason])} words) \n")
+            log.write(f"{reason.value} ({len(invalid_words_by_reason[reason])} words) \n")
             log.write(
                 "----------------------------------------------------------------------------\n"
             )
-            for word in invalid_strings_by_reason[reason]:
+            for word in invalid_words_by_reason[reason]:
                 log.write(word + "\n")
             log.write("\n")
 

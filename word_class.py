@@ -29,6 +29,9 @@ class Word:
 
     def contains_special_character(self) -> bool:
         return bool(re.search(r"[^a-zA-Z0-9]", self.string))
-    
-    def split_multiple(self) -> list[str]:
-        return [w for w in re.split(r'[_\s\:\\\-\,\/\.]+', self.string) if w]
+
+    def get_substrings(self) -> list[str]:
+        """Returns an array of strings that can be extracted from this word's string by splitting it by either of the following separators: 
+        underscore, whitespace, colon, semi-colon, backslash, dash, comma, forward slash, period, apostrophe"""
+
+        return [w for w in re.split(r'[\_\s\:\;\\\,\/\.\'-]+', self.string) if w]
