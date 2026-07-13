@@ -31,9 +31,7 @@ class DenyReason(Enum):
     CONTAINS_SPECIAL_CHARACTER = "CONTAINS SPECIAL CHARACTER"
 
 
-def main() -> None:
-    global num_lines_handled
-   
+def main() -> None: 
 
     if not 3 <= len(sys.argv) <= 4:
         print(
@@ -99,23 +97,23 @@ def handle_word(word: Word) -> None:
         log_invalid_word(word, DenyReason.TOO_SHORT)
         return
 
-    if DENY_ONLY_CAPS and word.is_only_caps():
+    elif DENY_ONLY_CAPS and word.is_only_caps():
         log_invalid_word(word, DenyReason.ONLY_CAPS)
         return
 
-    if DENY_ONLY_CONSONANTS and word.is_only_consonants():
+    elif DENY_ONLY_CONSONANTS and word.is_only_consonants():
         log_invalid_word(word, DenyReason.ONLY_CONSONANTS)
         return
 
-    if DENY_ONLY_SAME_LETTER and word.is_only_same_letter():
+    elif DENY_ONLY_SAME_LETTER and word.is_only_same_letter():
         log_invalid_word(word, DenyReason.ONLY_SAME_LETTER)
         return
 
-    if DENY_CONTAINS_DIGIT and word.contains_digit():
+    elif DENY_CONTAINS_DIGIT and word.contains_digit():
         log_invalid_word(word, DenyReason.CONTAINS_DIGIT)
         return
     
-    if DENY_CONTAINS_SPECIAL_CHARACTER and word.contains_special_character():
+    elif DENY_CONTAINS_SPECIAL_CHARACTER and word.contains_special_character():
         log_invalid_word(word, DenyReason.CONTAINS_SPECIAL_CHARACTER)
         return
         

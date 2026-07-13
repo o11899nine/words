@@ -31,4 +31,4 @@ class Word:
         return bool(re.search(r"[^a-zA-Z0-9]", self.string))
     
     def split_multiple(self) -> list[str]:
-        return [w for w in re.split(r'[_\s\:\\\-\,\/]+', self.string) if w]
+        return [w for w in re.split(r'[_\s\:\\\-\,\/\.]+', self.string) if w]
