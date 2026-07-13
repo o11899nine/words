@@ -13,16 +13,14 @@ num_lines: int = 0
 num_invalid_strings: int = 0
 
 # Settings
-SORT_ALPHABETICAL: bool = True
+REMOVE_ACCENTS: bool = True
 
-STRIP_SPECIAL_CHARACTERS: bool = True
-REMOVE_ACCENTS: bool = False
-
-MIN_WORD_LENGTH: int = 1
-DENY_ONLY_CAPS: bool = False
-DENY_ONLY_CONSONANTS: bool = False
-DENY_ONLY_SAME_LETTER: bool = False
-DENY_CONTAINS_DIGIT: bool = False
+MIN_WORD_LENGTH: int = 2
+DENY_ONLY_CAPS: bool = True
+DENY_ONLY_CONSONANTS: bool = True
+DENY_ONLY_SAME_LETTER: bool = True
+DENY_CONTAINS_DIGIT: bool = True
+DENY_CONTAINS_SPECIAL_CHARACTER: bool = True
 
 class DenyReason(Enum):
     TOO_SHORT = "TOO SHORT"
@@ -30,6 +28,7 @@ class DenyReason(Enum):
     ONLY_CONSONANTS = "ONLY CONSONANTS"
     ONLY_SAME_LETTER = "ONLY SAME LETTER"
     CONTAINS_DIGIT = "CONTAINS DIGIT"
+    CONTAINS_SPECIAL_CHARACTER = "CONTAINS SPECIAL CHARACTER"
 
 
 def main() -> None:
@@ -59,52 +58,25 @@ def main() -> None:
     num_lines = len(unique_lines)
 
 
+
     for line in unique_lines:
 
         # Stop at word limit
         if num_lines_handled >= word_limit:
             break
 
+
+
         # Show progress
         num_lines_handled += 1
         progress_percentage = round((num_lines_handled / num_lines) * 100, 2)
         print(f"{progress_percentage}%", end="\r")
+        
 
         word = Word(line.strip())
+        for subword in word.split_multiple():
+            handle_word(Word(subword))
 
-        if STRIP_SPECIAL_CHARACTERS:
-            word.strip_special_characters()
-
-        if REMOVE_ACCENTS:
-            word.remove_accents()
-
-        if word.length() < MIN_WORD_LENGTH:
-            log_invalid_word(word, DenyReason.TOO_SHORT)
-            continue
-
-        if DENY_ONLY_CAPS and word.is_only_caps():
-            log_invalid_word(word, DenyReason.ONLY_CAPS)
-            continue
-
-        if DENY_ONLY_CONSONANTS and word.is_only_consonants():
-            log_invalid_word(word, DenyReason.ONLY_CONSONANTS)
-            continue
-
-        if DENY_ONLY_SAME_LETTER and word.is_only_same_letter():
-            log_invalid_word(word, DenyReason.ONLY_SAME_LETTER)
-            continue
-
-        if DENY_CONTAINS_DIGIT and word.contains_digit():
-            log_invalid_word(word, DenyReason.CONTAINS_DIGIT)
-            continue
-
-        # SUCCESS! Word is valid!
-        valid_strings.add(word.string + "\n") # Add \n for fast writelines() later
-
-    if SORT_ALPHABETICAL:
-        valid_strings = sorted(valid_strings)
-    else:
-        valid_strings = list(valid_strings)
         
     write_list_to_file(sorted(valid_strings), target_filepath)
     print("------------------")
@@ -114,6 +86,42 @@ def main() -> None:
 
     write_to_log()
 
+
+def handle_word(word: Word) -> None:
+    word.strip_special_characters()
+
+
+    if REMOVE_ACCENTS:
+        word.remove_accents()
+
+
+    if word.length() < MIN_WORD_LENGTH:
+        log_invalid_word(word, DenyReason.TOO_SHORT)
+        return
+
+    if DENY_ONLY_CAPS and word.is_only_caps():
+        log_invalid_word(word, DenyReason.ONLY_CAPS)
+        return
+
+    if DENY_ONLY_CONSONANTS and word.is_only_consonants():
+        log_invalid_word(word, DenyReason.ONLY_CONSONANTS)
+        return
+
+    if DENY_ONLY_SAME_LETTER and word.is_only_same_letter():
+        log_invalid_word(word, DenyReason.ONLY_SAME_LETTER)
+        return
+
+    if DENY_CONTAINS_DIGIT and word.contains_digit():
+        log_invalid_word(word, DenyReason.CONTAINS_DIGIT)
+        return
+    
+    if DENY_CONTAINS_SPECIAL_CHARACTER and word.contains_special_character():
+        log_invalid_word(word, DenyReason.CONTAINS_SPECIAL_CHARACTER)
+        return
+        
+
+    # SUCCESS! Word is valid!
+    valid_strings.add(word.string + "\n") # Add \n for fast writelines() later
 
 def write_list_to_file(list: list, filepath: str) -> None:
     print(f"Writing set to '{filepath}' ...")

@@ -1,7 +1,6 @@
-def is_all_same_letter(word: str) -> bool:
-    for i in range(len(word) - 1):
-        if word[i] != word[i + 1]:
-            return False
-    return True
+import re
 
-print(is_all_same_letter("aaaaaaaaaaab"))
+def split_multiple(string: str) -> list[str]:
+    return [w for w in re.split(r'[_\s-]+', string) if w]
+
+print(split_multiple("konijn en koffie"))
