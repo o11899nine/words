@@ -1,13 +1,11 @@
 import json
 
-with open("nouns.json", "r") as source_file:
-    with open("wordlist.txt", "a") as target_file:
+with open("wordlists\OpenTaal\\nouns.json", "r") as source_file:
+    with open("nouns.txt", "a") as target_file:
 
         data = json.load(source_file)
 
         for word in data:
-            print(word)
-
             target_file.write(word + "\n")
             conjugations = data[word]
 

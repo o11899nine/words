@@ -7,17 +7,18 @@ import math
 # SETTINGS
 SHOW_STATS: bool = True
 REMOVE_ACCENTS: bool = True
-MIN_WORD_LENGTH: int = 4
-MAX_WORD_LENGTH: int = 10
+MIN_WORD_LENGTH: int = 3
+MAX_WORD_LENGTH: int | float = math.inf
 DENY_ONLY_CAPS: bool = True
 DENY_ONLY_CONSONANTS: bool = True
-DENY_ONLY_SAME_LETTER: bool = False
+DENY_ONLY_SAME_LETTER: bool = True
 DENY_CONTAINS_DIGIT: bool = True
 DENY_CONTAINS_SPECIAL_CHARACTER: bool = True
 
 invalid_words_by_reason: defaultdict = defaultdict(list)
 valid_words: set[str] = set()
 
+WRITE_MODES = {"append": "a", "write": "w"}
 
 class DenyReason(Enum):
     TOO_SHORT = "TOO SHORT"
@@ -32,22 +33,35 @@ class DenyReason(Enum):
 def main() -> None: 
 
     # Handle wrong usage
-    if not 3 <= len(sys.argv) <= 4:
-        print("Usage: python words_filter.py [source_filepath] [target_filepath] [line_limit]")
+    if not 4 <= len(sys.argv) <= 5:
+        print(
+            "Usage: python words_filter.py [source_filepath] [target_filepath] [append/write] [optional: line_limit]"
+        )
         sys.exit()
 
     # Apply word limit / handle wrong usage
     line_limit = math.inf
-    if len(sys.argv) == 4:
+    if len(sys.argv) == 5:
         try:
-            line_limit = int(sys.argv[3])
+            line_limit = int(sys.argv[4])
         except:
-            print("Usage: python words_filter.py [source_filepath] [target_filepath] [line_limit]")
+            print(
+                "Usage: python words_filter.py [source_filepath] [target_filepath] [append/write] [optional: line_limit]"
+            )
             sys.exit()
 
     # Get filepaths from CLI
     source_filepath: str = sys.argv[1]
     target_filepath: str = sys.argv[2]
+
+    # Get write mode
+    try:
+        write_mode = WRITE_MODES[sys.argv[3]]
+    except:
+        print(
+            "Usage: python words_filter.py [source_filepath] [target_filepath] [append/write] [optional: line_limit]"
+        )
+        sys.exit()
 
     # Get unique lines from source file
     unique_lines: set[str] = get_unique_lines_from_file(source_filepath)
@@ -70,7 +84,7 @@ def main() -> None:
 
         handle_word(Word(line.strip()))
 
-    write_list_to_file(sorted(valid_words), target_filepath)
+    write_list_to_file(sorted(valid_words), target_filepath, write_mode)
     write_to_log()
 
     if SHOW_STATS:
@@ -125,9 +139,9 @@ def handle_word(word: Word) -> None:
     # SUCCESS! Word is valid!
     valid_words.add(word.string + "\n") # Add \n for fast writelines() later
 
-def write_list_to_file(list: list, filepath: str) -> None:
+def write_list_to_file(list: list, filepath: str, write_mode: str) -> None:
     print(f"Writing set to '{filepath}' ...")
-    with open(filepath, "w", encoding="utf-8") as file:
+    with open(filepath, write_mode, encoding="utf-8") as file:
         file.writelines(list)
     print("Done!")
 

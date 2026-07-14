@@ -1,10 +1,8 @@
-Kerstmis
-Pasen
-Pinksteren
-aan
+aan (vz)
+aan (bw)
 aanbieden
 aandacht
-aandeel
+aandeel (het)
 aandoen
 aangezien
 aankijken
@@ -18,13 +16,13 @@ aanleiding
 aannemen
 aanpassen
 aansluiten
-aantal
+aantal (het)
 aantrekken
 aanvaarden
 aanvragen
-aanw
 aanwezig
 aanwijzen
+aanzien (het)
 aanzien
 aanzienlijk
 aard
@@ -34,15 +32,17 @@ aardig
 aarzelen
 absoluut
 achten
-achter
+achter (vz)
+achter (bw)
 achterblijven
 achtergrond
 achteruit
 actie
 activiteit
-adres
-advies
-af
+adres (het)
+advies (het)
+af (vz)
+af (bw)
 afdeling
 afhangen
 afhankelijk
@@ -50,7 +50,7 @@ afkomen
 aflopen
 afnemen
 afpakken
-afscheid
+afscheid (het)
 afsluiten
 afspraak
 afstand
@@ -59,8 +59,11 @@ afvragen
 afwachten
 afwezig
 agent
-akkoord
-al
+akkoord (het)
+akkoord (bw)
+al (bw)
+al (vw)
+al / alle
 aldoor
 aldus
 alle
@@ -84,25 +87,26 @@ anders
 anderzijds
 angst
 angstig
-antwoord
+antwoord (het)
 antwoorden
 apart
-apotheek
 appel
+apotheek
 april
 arbeid
 arbeider
 arm
-artikel
+artikel (het)
 arts
 augustus
 auto
 avond
+B
 baan
 baard
 baas
 baby
-bad
+bad (het)
 bagage
 bakker
 bal
@@ -111,25 +115,25 @@ bang
 bank
 basis
 beantwoorden
-bed
+bed (het)
 bedanken
 bedenken
 bedienen
 bedoelen
 bedoeling
-bedrag
+bedrag (het)
 bedragen
-bedrijf
+bedrijf (het)
 bedroefd
-beeld
-been
-beest
-beetje
-begin
+beeld (het)
+been (het)
+beest (het)
+beetje (het)
+begin (het)
 beginnen
 begrijpelijk
 begrijpen
-begrip
+begrip (het)
 behalve
 behandelen
 behandeling
@@ -142,16 +146,17 @@ bekendmaken
 bekennen
 bekijken
 belachelijk
-belang
+belang (het)
 belangrijk
 belangstelling
 belasting
 beleefd
-beleid
+beleid (het)
 beleven
 bellen
 beloven
-beneden
+beneden (vz)
+beneden (bw)
 benzine
 beoordelen
 bepaald
@@ -160,19 +165,19 @@ beperken
 bereid
 bereiken
 berg
-bericht
-beroep(het
+bericht (het)
+beroep(het)
 beschermen
 beschikbaar
 bestaan
+bestaan (het)
 besteden
 bestellen
-bestuur
+bestuur (het)
 betalen
 betekenen
 betekenis
 beter
-betr
 betreffen
 betrekkelijk
 betrekken
@@ -190,57 +195,61 @@ beweren
 bewijzen
 bewoner
 bewust
-bez
 bezet
 bezig
 bezitten
-bezoek
+bezoek (het)
 bezoeken
-bezwaar
+bezwaar (het)
 bidden
 bieden
-bier
-bij
+bier (het)
+bij (vz)
+bij (bij)
 bijdrage
 bijdragen
 bijvoorbeeld
 bijzonder
 binden
-binnen
+binnen (vz)
+binnen (bw)
 binnenkomen
 bioscoop
 bitter
-blad
+blad (het)
 blank
 blauw
-blij(de
+blij(de)
 blijkbaar
 blijken
 blijven
-blik(de
-blik(het
+blik(de)
+blik(het)
 blind
-bloed
+bloed (het)
 bloem
 bloes
-blok
+blok (het)
+2
+blouse - eruitzien
 blouse
 bodem
-boek
+boek (het)
 boel
 boer
 bon
 boodschap
 boom
-boord
+boord (het, de)
 boos
 boot
-bord
+bord (het)
 borst
-bos
+bos (het, de)
 boterham
 bouw
 bouwen
+boven
 boven
 bovendien
 brand
@@ -253,99 +262,108 @@ bril
 broek
 broer
 brommer
-brood
-broodje
+brood (het)
+broodje (het)
 brug
 bruin
 buigen
 buik
-buiten
+buiten (vz)
+buiten (bw)
 buitengewoon
-buitenland
+buitenland (het)
 buitenlands
-bureau
+bureau (het)
 burgemeester
 bus
 buur
 buurt
-cadeau
-café
+C
+cadeau (het)
+café (het)
 caravan
 cassette
+cd
 cent
 centiem
 centimeter
 centraal
-centrum
+centrum (het)
 chauffeur
 chef
 chemisch
 christelijk
 christen
-cijfer
+cijfer (het)
 circa
 citroen
 club
 collega
-college
+college (het)
 commissie
 computer
+congres (het)
 conclusie
-congres
 consequentie
 constateren
-contact
+contact (het)
 controleren
 crisis
 cultuur
 cursus
+D
 daad
 daar
 daarna
 daarom
 dadelijk
 dagelijks
-dak
-dal
+dak (het)
+dal (het)
 dalen
 dame
-dan
+dan (bw)
+dan (vw)
 dank
 dankbaar
 danken
 dankzij
 dansen
-dat
-datum
+dat (aanw vnw)
+dat (betr vnw)
+dat (vw)
+datum (het)
 de
 december
-deel
+deel (het)
 deelnemen
+degelijk
 definitief
 degelijk
-degene
+degene / diegene
 deken
 delen
 democratie
 denken
 dergelijk
-detail
+detail (het)
 deze
-dezelfde
+dezelfde / hetzelfde
 dicht
 dichtbij
-die
+die (aanw vnw)
+die (betr vnw)
 dief
 diegene
 dienen
 dienst
 diep
-dier
+dier (het)
 dik
 dikwijls
-ding
+ding (het)
 dinsdag
-diploma
+diploma (het)
 direct
 directeur
 disco
@@ -353,8 +371,8 @@ discussie
 dit
 dochter
 doden
-doek
-doel
+doek (de, het)
+doel (het)
 doen
 dokter
 dom
@@ -362,16 +380,18 @@ dominee
 donderdag
 donker
 dood
-door
+door (vz)
+door (bw)
 doorbrengen
 doordat
 doordringen
 doorgaan
 doorlopen
 doos
-dorp
+dorp (het)
 dorst
 douche
+dʼr
 draad
 draaien
 dragen
@@ -383,6 +403,7 @@ dromen
 droog
 droom
 drug
+druk (de)
 druk
 drukken
 dubbel
@@ -391,78 +412,92 @@ dun
 duren
 durven
 dus
+duur (de)
 duur
 dwingen
-dʼr
+E
 echt
 echter
 economie
 economisch
 een
+één
 eenheid
 eenmaal
-eens
+eens (bn)
+eens (bw)
 eentje
 eenvoudig
 eenzaam
 eer
 eerder
 eerlijk
-eerst
+eerst (bw)
+eerst (telw)
 eeuw
-ei
+ei (het)
 eigen
 eigenaar
 eigenaardig
 eigenlijk
-eiland
-eind
-einde
+eiland (het)
+eind (het)
+einde (het)
 eindelijk
 eindigen
 eis
 eisen
 elders
 elektrisch
-element
+element (het)
 elk
 elkaar
 emmer
 en
 ene
 enerzijds
-enig
+enig (bn/bw)
+enig (onbep vnw)
 enigszins
-enkel
+enkel (bn/bw)
+enkel (onbep. telw)
 enorm
 enzovoorts
 er
-erg
+erg (het)
+erg (bn/bw)
 ergens
 erkennen
 ernstig
 eruitzien
+3
+ervaren - horen
 ervaren
+ervaren (bn)
 ervaring
+eten (het)
 eten
-even
+even (bw)
+even (bn)
 evenals
 evengoed
 evenmin
 eventjes
 eventueel
-examen
+examen (het)
 extra
+F
 fabriek
 factor
-familie
 februari
-feest
-feit
+familie
+feest (het)
+feit (het)
 feitelijk
 fel
 fiets
-figuur
+figuur (de)
+figuur (het)
 fijn
 file
 film
@@ -472,53 +507,60 @@ flauw
 fles
 fluisteren
 foto
-fout
+fout (bn)
+fout (de)
 fraai
 friet
 fris
 frites
-fruit
+fruit (het)
+foto
+fout
+fout
 functie
 functioneren
+G
 gaan
 gang
 garage
-gas
+gas (het)
 gast
-gat
+gat (het)
 gauw
-gebaar
+gebaar (het)
 gebeuren
 gebeurtenis
-gebied
+gebied (het)
 geboren
-gebouw
-gebrek
-gebruik
+gebouw (het)
+gebrek (het)
+gebruik (het)
 gebruiken
 gedachte
-gedeelte
-gedrag
-geduld
+gedeelte (het)
+gedrag (het)
+geduld (het)
 gedurende
 geel
 geen
 geest
 geestelijk
-gegeven
-geheel
-geheim
+gegeven (het)
+geheel (het)
+geheim (het)
 gek
-geld
+gek (de)
+geld (het)
 gelden
 geleden
 gelegenheid
 geleidelijk
+gelijk (het)
 gelijk
-geloof
+geloof (het)
 geloven
-geluid
-geluk
+geluid (het)
+geluk (het)
 gelukkig
 gemakkelijk
 gemeenschap
@@ -526,46 +568,48 @@ gemeenschappelijk
 gemeente
 generatie
 genieten
-genoeg
-genoegen
+genoeg (bw)
+genoeg (onbep telw)
+genoegen (het)
 geregeld
 gering
 gerust
 geschiedenis
 geschikt
 gesloten
-gesprek
+gesprek (het)
 gestalte
 getrouwd
 geur
-gevaar
+gevaar (het)
 gevaarlijk
-geval
+geval (het)
 geven
-gevoel
-gevoelen
-gevolg
-geweld
+gevoel (het)
+gevoelen (het)
+gevolg (het)
+geweld (het)
 geweldig
 gewoon
 gewoonlijk
 gewoonte
-gezag
+gezag (het)
 gezellig
-gezelschap
-gezicht
-gezin
+gezelschap (het)
+gezicht (het)
+gezin (het)
 gezond
 gezondheid
 gisteravond
 gisteren
 gisterenavond
 glans
-glas
+glas (het)
 glijden
 glimlachen
 glimmen
 god
+goed (het)
 goed
 goedemiddag
 goedemorgen
@@ -577,12 +621,12 @@ goedkoop
 goedvinden
 golf
 gooien
-gordijn
-goud
+gordijn (het)
+goud (het)
 graag
-gram
+gram (het)
 grap
-gras
+gras (het)
 gratis
 grens
 grijpen
@@ -598,7 +642,10 @@ grond
 groot
 gulden
 gunstig
+H
+haar (het)
 haar
+haast (de)
 haast
 haastig
 halen
@@ -610,7 +657,7 @@ handelen
 handhaven
 hangen
 hard
-hart
+hart (het)
 hartelijk
 haven
 hebben
@@ -622,7 +669,7 @@ heersen
 heet
 heftig
 heilig
-hek
+hek (het)
 helder
 heleboel
 helemaal
@@ -637,6 +684,7 @@ herinneren
 herinnering
 herkennen
 herstellen
+het (pers vnw)
 het
 heten
 hetgeen
@@ -655,40 +703,46 @@ hoeven
 hoewel
 hond
 honger
-hoofd
+hoofd (het)
 hoofdzakelijk
 hoog
 hoogte
 hoop
 hopen
 horen
-horloge
-hotel
+4
+horloge - liefde
+horloge (het)
+hotel (het)
 houden
 houding
-hout
+hout (het)
 huidig
 huilen
-huis
-huishouden
+huis (het)
+huishouden (het)
 huiskamer
 hulp
-hun
+hun (pers vnw)
+hun (bez vnw)
 huren
 hut
 huur
-huwelijk
-ideaal
-idee
+huwelijk (het)
+I
+ideaal (het)
+idee (het)
 ieder
 iedereen
 iemand
-iets
-ijs
-ijzer
+iets (onbep vnw)
+iets (bw)
+ijs (het)
+ijzer (het)
 ik
 immers
-in
+in (vz)
+in (bw)
 inderdaad
 indertijd
 indien
@@ -704,7 +758,7 @@ ingenieur
 ingewikkeld
 inhoud
 inhouden
-initiatief
+initiatief (het)
 inlichting
 inmiddels
 innemen
@@ -712,51 +766,54 @@ instantie
 instappen
 instellen
 instelling
-instrument
+instrument (het)
 interessant
 interesseren
 internationaal
 intussen
-invloed
-invoeren
-inzicht
+inzicht (het)
 inzien
+J
 ja
-jaar
+jaar (het)
 jacht
 jammer
 januari
 jarig
 jas
-jasje
+jasje (het)
 jawel
-je
+je (pers vnw)
+je (wederk vnw)
+je (bez vnw)
 jeugd
 jij
-jonen
 jong
+jonen
 jou
 journalist
 jouw
 juffrouw
 juist
 juli
-jullie
+jullie (pers vnw)
+jullie (bez vnw)
 juni
 jurk
+K
 kaart
 kaas
-kabinet
-kader
 kamer
-kamp
+kabinet (het)
+kader (het)
+kamp (het)
 kans
 kant
-kantoor
+kantoor (het)
 kapitein
 kapot
 kapper
-karakter
+karakter (het)
 kast
 kat
 katholiek
@@ -767,19 +824,22 @@ kennelijk
 kennen
 kennis
 kennismaken
+invloed
+invoeren
 kerel
 keren
 kerk
 kermis
+Kerstmis
 keuken
 keus
 keuze
 kiezen
 kiezer
 kijken
-kilo
+kilo (het, de)
 kilometer
-kind
+kind (het)
 kip
 kist
 klaar
@@ -791,7 +851,7 @@ klasse
 klein
 kleren
 kleur
-klimaat
+klimaat (het)
 klimmen
 klinken
 klok
@@ -812,6 +872,7 @@ koninklijk
 kop
 kopen
 kort
+kosten (de)
 kosten
 kous
 kraan
@@ -823,39 +884,43 @@ kring
 kritiek
 kritisch
 kruipen
-kruispunt
+kruispunt (het)
 kunnen
 kunst
 kunstenaar
 kus
-kussen
+kussen (het)
 kust
+kwaad (het)
 kwaad
 kwalijk
 kwaliteit
-kwart
+kwart (het)
 kwestie
 kwijt
+L
 laag
 laars
 laat
 lachen
-laken
+laken (het)
 lamp
-land
+land (het)
 landbouw
 lang
-langs
+langs (vz)
+langs (bw)
 langzaam
 langzamerhand
 last
 laten
-lawaai
+lawaai (het)
 leeftijd
 leeg
-leer
+leer (het)
+leer (de)
 leerling
-leger
+leger (het)
 leggen
 leiden
 leider
@@ -871,21 +936,25 @@ les
 letten
 letter
 leuk
+leven (het)
 leven
 leveren
 lezen
 lezer
-lichaam
+lichaam (het)
+licht (het)
 licht
-lid
-lied
+lid (het)
+lied (het)
 lief
 liefde
+5
+liegen - ongetwijfeld
 liegen
 liever
 liggen
 lijden
-lijf
+lijf (het)
 lijken
 lijn
 lijst
@@ -895,7 +964,7 @@ lip
 liter
 logeren
 logisch
-loon
+loon (het)
 loop
 lopen
 lucht
@@ -905,11 +974,16 @@ luiden
 luisteren
 lukken
 lunch
+M
 ma
-maal
+maal (de)
+maal (het)
 maaltijd
 maandag
+maandag
 maar
+maar (bw)
+maar (vw)
 maart
 maat
 maatregel
@@ -930,11 +1004,12 @@ markt
 massa
 mat
 mate
-materiaal
-me
+materiaal (het)
+me (pers vnw)
+me (wederk vnw)
 mede
 mededelen
-medicijn
+medicijn (het)
 mee
 meebrengen
 meedelen
@@ -942,7 +1017,8 @@ meedoen
 meegaan
 meemaken
 meenemen
-meer
+meer (bw)
+meer (onbep telw)
 meerderheid
 meest
 meestal
@@ -950,7 +1026,7 @@ meester
 meevallen
 mei
 meid
-meisje
+meisje (het)
 mekaar
 melk
 men
@@ -962,32 +1038,37 @@ mens
 menselijk
 merken
 merkwaardig
-mes
+mes (het)
 met
 meteen
 meter
 methode
 mevrouw
 middag
-middel
+middel (het)
 middelbaar
+midden (het)
 midden
-mij
+mij (pers vnw)
+mij (wederk vnw)
 mijn
 mijnheer
-milieu
+milieu (het)
 militair
-miljoen
+militair (bn)
+miljoen (het)
 min
-minder
+minder (bw)
+minder (onbep telw)
 minister
-ministerie
+ministerie (het)
 minst
-misbruik
+misbruik (het)
 misdaad
 misschien
 missen
-misverstand
+misverstand (het)
+mʼn
 modern
 moe
 moed
@@ -999,26 +1080,30 @@ moeten
 mogelijk
 mogelijkheid
 mogen
-moment
+moment (het)
 mond
 mooi
 moord
+morgen (de)
 morgen
 muur
 muziek
-mʼn
-na
+N
+na (vz)
+na (bw)
 naam
-naar
+naar (bn)
+naar (vz)
+naar (vw)
 naast
 nacht
 nadat
-nadeel
+nadeel (het)
 nadenken
 nader
 naderen
 nadruk
-najaar
+najaar (het)
 name
 namelijk
 nat
@@ -1043,10 +1128,10 @@ niet
 niets
 nietwaar
 nieuw
-nieuws
+nieuws (het)
 nieuwsgierig
 niks
-niveau
+niveau (het)
 noch
 nodig
 noemen
@@ -1055,24 +1140,28 @@ nogal
 nogmaals
 noodzakelijk
 nooit
-noorden
+noorden (het)
 norm
 normaal
 nota
 nou
 november
+ʻns
 nu
-nummer
+nu (vw)
+nummer (het)
 nuttig
+O
 ochtend
 oefenen
 of
 officieel
 officier
 ofschoon
-ogenblik
+ogenblik (het)
 oktober
-om
+om (vz)
+om (bw)
 oma
 omdat
 omdraaien
@@ -1084,27 +1173,30 @@ omlaag
 omstandigheid
 onafhankelijk
 onbekend
-onbep
 ondanks
-onder
+onder (vz)
+onder (bw)
 onderhandelen
 onderhandeling
 onderneming
 onderscheiden
-onderwerp
-onderwijs
+onderwerp (het)
+onderwijs (het)
 onderwijzer
-onderzoek
+onderzoek (het)
 onderzoeken
 oneven
-ongeluk
+ongeluk (het)
 ongetwijfeld
+6
+ongeveer - rijk
 ongeveer
 onlangs
 onmiddellijk
 onmogelijk
 ons
-ontbijt
+ons / onze
+ontbijt (het)
 ontbreken
 ontdekken
 onthouden
@@ -1116,17 +1208,18 @@ ontwikkeling
 ontzettend
 onze
 onzin
-oog
+oog (het)
 ooit
 ook
 oom
-oor
-oordeel
+oor (het)
+oordeel (het)
 oorlog
 oorspronkelijk
 oorzaak
-oosten
-op
+oosten (het)
+op (vz)
+op (bw)
 opa
 opbellen
 opbouwen
@@ -1163,52 +1256,58 @@ opstaan
 opstellen
 optillen
 optreden
+optreden (het)
 optrekken
 opvallen
 opvatting
 opzetten
-opzicht
+opzicht (het)
 opzoeken
 oranje
 orde
 organisatie
 organiseren
-orgel
+orgel (het)
 oud
 ouder
-over
+over (vz)
+over (bw)
 overal
 overblijven
 overdag
 overeenkomst
 overgaan
 overheid
-overhemd
+overhemd (het)
 overigens
-overleg
+overleg (het)
 overlijden
 oversteken
 overtuigen
 overwegen
 overwinning
+P
 pa
 paal
-paar
-paard
+paar (het)
+paar (onbep telw)
+paard (het)
 paars
-pak
+pak (het)
 pakken
-paleis
+paleis (het)
 papa
-papier
+papier (het)
 pappa
 pardon
-park
+park (het)
 parkeren
-parlement
+parlement (het)
 particulier
 partij
+pas (de)
 pas
+Pasen
 passen
 pastoor
 patiënt
@@ -1218,7 +1317,7 @@ per
 perfect
 periode
 pers
-personeel
+personeel (het)
 persoon
 persoonlijk
 persoonlijkheid
@@ -1226,23 +1325,25 @@ pet
 piano
 pijn
 pijp
+Pinksteren
 plaat
 plaats
 plaatselijk
 plaatsen
 plaatsvinden
-plan
+plan (het)
 plank
 plant
 plat
 plegen
-plein
-plezier
+plein (het)
+plezier (het)
 ploeg
 plotseling
 plus
 poging
 politie
+politiek (de)
 politiek
 pop
 positie
@@ -1257,41 +1358,46 @@ precies
 president
 prestatie
 prijs
-principe
+principe (het)
 prins
 prinses
 proberen
-probleem
-procent
-proces
-product
+probleem (het)
+procent (het)
+proces (het)
+product (het)
 productie
 proeven
 professor
-program
-programma
+program (het)
+programma (het)
 protestants
 protesteren
 provincie
 publiceren
-publiek
-punt
+publiek (het)
+punt (het)
+punt (de)
+Q
 qua
+R
+ʻr
 raad
-raam
+raam (het)
 raar
 radio
 raken
 rand
-rapport
+rapport (het)
 reactie
 reageren
 realiseren
+recht (het)
 recht
 rechter
 rechts
 reclame
-record
+record (het)
 redden
 redelijk
 reden
@@ -1312,15 +1418,18 @@ relatie
 rennen
 reserveren
 rest
-restaurant
-resultaat
-retour
+restaurant (het)
+resultaat (het)
+retour (het)
 revolutie
 richten
 richting
 rij
 rijden
+rijk (het)
 rijk
+7
+rijst - toerist
 rijst
 ring
 rivier
@@ -1330,6 +1439,7 @@ roken
 rol
 roman
 rond
+rond (vz)
 rondom
 rood
 rook
@@ -1341,6 +1451,8 @@ rust
 rusten
 rustig
 ruzie
+S
+ʻs
 samen
 samenleving
 samenwerking
@@ -1355,13 +1467,13 @@ scheuren
 schieten
 schijnen
 schilderen
-schip
+schip (het)
 schitterend
 schoen
 school
 schoon
 schoonmaken
-schot
+schot (het)
 schouder
 schreeuwen
 schrijven
@@ -1372,21 +1484,23 @@ schuiven
 schuld
 schuur
 seconde
-sedert
-seizoen
+sedert (vz)
+sedert (vw)
+seizoen (het)
 seksueel
 september
 serie
 sfeer
 sigaret
-signalement
-sinds
+signalement (het)
+sinds (vz)
+sinds (vw)
 situatie
 sjaal
 sla
 slaan
 slaap
-slachtoffer
+slachtoffer (het)
 slag
 slagen
 slager
@@ -1396,7 +1510,7 @@ slechts
 sleutel
 slim
 slopen
-slot
+slot (het)
 sluiten
 smakelijk
 smaken
@@ -1404,7 +1518,7 @@ smal
 snappen
 snel
 snijden
-snoep
+snoep (de, het)
 sociaal
 sociologie
 sok
@@ -1412,17 +1526,17 @@ soldaat
 somber
 sommige
 soms
-soort
+soort (het)
 sorry
 spanning
 speciaal
-spel
+spel (het)
 spelen
 speler
 spiegel
 spijten
 spoedig
-spoor
+spoor (het)
 sport
 sprake
 spreken
@@ -1433,11 +1547,11 @@ stad
 staking
 stal
 stand
-standpunt
+standpunt (het)
 stap
 stappen
 staren
-station
+station (het)
 steeds
 steen
 steken
@@ -1456,14 +1570,15 @@ stijl
 stil
 stilte
 stoel
-stof
+stof (de)
+stof (het)
 stok
 stoppen
 straat
 straf
 strak
 straks
-strand
+strand (het)
 streek
 streep
 streng
@@ -1475,14 +1590,17 @@ structuur
 student
 studeren
 studie
+stuk (het)
 stuk
 sturen
 subsidie
-succes
+succes (het)
 suiker
 supermarkt
 sympathie
-systeem
+systeem (het)
+T
+ʻt
 taak
 taal
 tafel
@@ -1493,17 +1611,20 @@ tanken
 tante
 tas
 taxi
-te
+te (vz)
+te (bw)
 technisch
 teen
 tegelijk
-tegen
-tegenover
+tegen (vz)
+tegen (bw)
+tegenover (vz)
+tegenover (bw)
 tegenstander
 tegenstelling
 tegenvallen
 tegenwoordig
-teken
+teken (het)
 tekenen
 tekst
 telefoneren
@@ -1512,7 +1633,6 @@ teleurstelling
 televisie
 telkens
 tellen
-telw
 ten
 tenminste
 tenslotte
@@ -1520,7 +1640,7 @@ tentoonstelling
 ter
 terecht
 term
-terrein
+terrein (het)
 terug
 terugkeren
 terugkomen
@@ -1534,7 +1654,7 @@ thee
 theorie
 thuis
 thuiskomen
-tientje
+tientje (het)
 tijd
 tijdens
 titel
@@ -1544,24 +1664,29 @@ toe
 toegeven
 toekomst
 toelaten
-toen
+toen (bw)
+toen (vw)
 toepassen
 toepassing
 toerist
+8
+toestand - voorbij
 toestand
 toestemming
 toevallig
 toevoegen
 tolk
 ton
-toneel
+toneel (het)
 tonen
 toon
 top
 toren
-tot
+tot (vz)
+tot (vw)
+totaal (het)
 totaal
-touw
+touw (het)
 traan
 trachten
 traditioneel
@@ -1576,11 +1701,17 @@ trouw
 trouwen
 trouwens
 trui
-tussen
+tussen (vz)
+tussen (bw)
+t.v. / tv.
 twijfel
-type
+type (het)
 typisch
-uit
+U
+u (pers vnw)
+u (wederk vnw)
+uit (vz)
+uit (bw)
 uitbreiden
 uitdelen
 uitdoen
@@ -1614,13 +1745,14 @@ uitzendkracht
 uitzien
 uitzoeken
 universiteit
-uur
+uur (het)
 uw
+V
 vaag
 vaak
 vaas
 vader
-vak
+vak (het)
 vakantie
 vallen
 van
@@ -1640,25 +1772,26 @@ varen
 vast
 vaststellen
 vechten
-veel
+veel (bw)
+veel (telw)
 veilig
-veld
+veld (het)
 vent
 ver
 veranderen
 verandering
-verband
+verband (het)
 verbazen
 verbergen
 verbieden
 verbinden
-verblijf
+verblijf (het)
 verboden
 verdelen
 verder
 verdienen
 verdienste
-verdriet
+verdriet (het)
 verdwijnen
 verenigen
 vereniging
@@ -1667,13 +1800,13 @@ vergelijken
 vergelijking
 vergeten
 vergissen
-verhaal
+verhaal (het)
 verheugen
 verhogen
 verhouding
 verhuizen
 verhuren
-verkeer
+verkeer (het)
 verkeerd
 verkeren
 verkiezing
@@ -1682,15 +1815,17 @@ verklaring
 verkopen
 verkouden
 verkrijgen
+verlangen (het)
 verlangen
 verlaten
-verleden
+verleden (het)
 verlenen
-verlies
+verlies (het)
 verliezen
 vermelden
 vermoedelijk
 vermoeden
+vermoeden (het)
 vernemen
 verontschuldiging
 veroorzaken
@@ -1701,13 +1836,13 @@ verrichten
 vers
 verscheiden
 verschijnen
-verschijnsel
-verschil
+verschijnsel (het)
+verschil (het)
 verschillen
 verschillend
 verschrikkelijk
 verstaan
-verstand
+verstand (het)
 verstandig
 versterken
 vertalen
@@ -1715,13 +1850,14 @@ verte
 vertegenwoordiger
 vertellen
 vertonen
-vertrek
+vertrek (het)
 vertrekken
 vertrouwen
+vertrouwen (het)
 vervangen
 vervelen
 vervelend
-vervoer
+vervoer (het)
 vervolgen
 vervullen
 verwachten
@@ -1731,23 +1867,25 @@ verwijderen
 verwonderen
 verzamelen
 verzekeren
-verzet
+verzet (het)
 verzetten
-verzoek
+verzoek (het)
 verzorgen
 vestigen
 via
 vieren
+vierkant (het)
 vierkant
 vies
 vijand
 vinden
 vinger
 vis
+vlak (het)
 vlak
-vlees
+vlees (het)
 vliegen
-vliegtuig
+vliegtuig (het)
 vloer
 vluchten
 vlug
@@ -1762,31 +1900,36 @@ voldoende
 volgen
 volgend
 volgens
-volk
+volk (het)
 volkomen
 volledig
-voor
+voor (vz)
+voor (bw)
+voor (vw)
 vooral
-voorbeeld
+voorbeeld (het)
 voorbereiden
-voorbij
+voorbij (vz)
+voorbij (bn/bw)
+9
+voordat - zwijgen
 voordat
-voordeel
+voordeel (het)
 voorgrond
 voorheen
-voorjaar
+voorjaar (het)
 voorkomen
 voorlopig
-voornaam
+voornaam (bn)
 voorstander
-voorstel
+voorstel (het)
 voorstellen
 voorstelling
 voortdurend
 voortzetten
 vooruit
 voorwaarde
-voorwerp
+voorwerp (het)
 voorzichtig
 voorzien
 voorzitter
@@ -1818,9 +1961,11 @@ vrouw
 vrucht
 vuil
 vullen
-vuur
+vuur (het)
+W
 waaien
-waar
+waar (bn)
+waar (vrw)
 waard
 waarde
 waardering
@@ -1829,39 +1974,49 @@ waarom
 waarschijnlijk
 waarschuwen
 wachten
+wagen (de)
 wagen
 wakker
 wand
 wandelen
-wanneer
+wanneer (vrw)
+wanneer (vw)
 want
-wapen
+wapen (het)
 warm
 wassen
-wat
-water
+wat (vrw)
+wat (betr vnw)
+wat (onbep vnw)
+wat (bw)
+wat (onbep telw)
+water (het)
+wc
 we
-wederk
 wedstrijd
 week
-weer
 wees
+weer (het)
+weer
+weg (de)
 weg
 wegens
 weggaan
 weigeren
-weinig
+weinig (bw)
+weinig (bn)
 wekken
 wel
 weliswaar
-welk
+welk (vrw)
+welk (onbep vnw)
 wellicht
 welterusten
 wennen
 wens
 wensen
 wereld
-werk
+werk (het)
 werkelijk
 werkelijkheid
 werken
@@ -1870,14 +2025,16 @@ werking
 werknemer
 werkzaamheden
 werpen
-westen
+westen (het)
 wet
 weten
 wetenschap
 wetenschappelijk
 wettelijk
-wezen
-wie
+wezen (het)
+wezen = zijn
+wie (vrw)
+wie (betr vnw)
 wij
 wijd
 wijn
@@ -1894,18 +2051,18 @@ winst
 winter
 wit
 woensdag
-wonder
+wonder (het)
 wonderlijk
 wonen
 woning
-woord
+woord (het)
 worden
+Z
 zaak
-zaal
-zacht
+zaal zacht
 zak
 zakken
-zand
+zand (het)
 zaterdag
 ze
 zee
@@ -1924,18 +2081,22 @@ zetten
 zich
 zichtbaar
 ziek
-ziekenhuis
+ziekenhuis (het)
 ziekte
 ziel
 zien
+zij / zijde
 zij
 zijde
 zijn
-zilver
+zijn (bez vnw)
+zilver (het)
 zin
 zingen
 zitten
+zʼn
 zo
+zo (vw)
 zoals
 zodanig
 zodat
@@ -1944,25 +2105,29 @@ zodra
 zoeken
 zoet
 zogenaamd
-zolang
+zolang (bw)
+zolang (vw)
 zomer
 zon
+zoʼn
 zondag
-zonder
+zonder (vz)
+zonder (bw)
 zoon
 zorg
 zorgen
 zorgvuldig
+zout (het)
 zout
-zoveel
-zover
-zoverre
+zoveel (bw)
+zoveel (onbep telw)
+zover / zoverre
 zowel
-zoʼn
 zuchten
-zuiden
+zuiden (het)
 zuiver
-zulk
+zulk (aanw vnw)
+zulk (bw)
 zullen
 zus
 zuster
@@ -1971,7 +2136,8 @@ zwaar
 zwak
 zwart
 zwembad
+zus
+zuster
+zuur
 zwemmen
 zwijgen
-zʼn
-één
